@@ -1,0 +1,64 @@
+body{
+	font-family: sans-serif;
+	margin:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.button {
+	display: block;
+	padding: 20px;
+	font-size: 2em;
+	text-decoration: none;
+	background-color: orange;
+	color:black;
+}
+
+
+.menu{
+	
+	transition: 1s ease-in-out;
+	transform:translateY(5px);
+	opacity: 0;
+}
+
+
+.menu.is-open{
+	opacity:1;
+	transition: 0.5s ease-in-out;
+	transform:translateY(0);
+	padding:5px 0;
+}
+
+
+.menu2{
+	
+	transition: 1s ease-in-out;
+	transform:translateY(5px);
+	opacity: 0;
+}
+
+
+.menu2.is-open{
+	opacity:1;
+	transition: 0.5s ease-in-out;
+	transform:translateY(0);
+	padding:10px 0;
+}
+
+.menu3{
+	
+	transition: 1s ease-in-out;
+	transform:translateY(5px);
+	opacity: 0;
+}
+
+
+.menu3.is-open{
+	opacity:1;
+	transition: 0.5s ease-in-out;
+	transform:translateY(0);
+	padding:10px 0;
+}
